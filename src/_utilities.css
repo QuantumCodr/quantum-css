@@ -1,0 +1,39 @@
+/* Layout */
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+
+/* Spacing */
+.m-1 { margin: var(--space-xs); }
+.m-2 { margin: var(--space-sm); }
+.p-1 { padding: var(--space-xs); }
+.p-2 { padding: var(--space-sm); }
+.p-4 { padding: var(--space-md); }
+
+/* Colors */
+.bg-primary { background-color: var(--color-primary); color: white; }
+.bg-secondary { background-color: var(--color-secondary); color: white; }
+.text-primary { color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+
+/* Typography */
+.text-sm { font-size: 0.875rem; }
+.text-lg { font-size: 1.125rem; }
+.font-bold { font-weight: 700; }
+
+/* Borders */
+.rounded { border-radius: var(--radius); }
+
+/* Button style */
+.btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius);
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #1e40af;
+}
