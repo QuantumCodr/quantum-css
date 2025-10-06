@@ -37,3 +37,18 @@
 .btn:hover {
   background-color: #1e40af;
 }
+
+.btn-secondary {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius);
+  background-color: var(--color-secondary);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #7e22ce;
+}
