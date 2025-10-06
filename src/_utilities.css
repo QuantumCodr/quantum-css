@@ -52,3 +52,26 @@
 .btn-secondary:hover {
   background-color: #7e22ce;
 }
+
+.bg-gradient-primary {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+}
+
+/* horizontal spacing helper */
+.space-x-6 > * + * {
+  margin-left: 1.5rem;
+}
+
+/* flex row helper */
+.flex-row { display: flex; flex-direction: row; }
+
+/* gap between elements */
+.gap-4 { gap: 1rem; }
+
+/* hover transitions */
+.transition-colors { transition: color 0.2s ease; }
+
+/* responsive example */
+@media (min-width: 768px) {
+  .md:flex-row { flex-direction: row; }
+}
